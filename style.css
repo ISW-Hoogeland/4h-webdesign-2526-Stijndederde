@@ -69,8 +69,8 @@ body {
   "header header"
   "nav main"
   "nav footer";
-  grid-template-columns: 1fr 1fr;
-grid-template-rows: 140px 1fr 70px;
+  grid-template-columns: 1fr 3fr;
+grid-template-rows: 90px 1fr 70px;
  background-color: var(--list-bg);
 }
 
@@ -81,10 +81,18 @@ header{
 }
 nav{
   grid-area:nav;
+  display: flex;
+  align-items: center;
 
+}
+
+
+li {
+  margin: 20px;
 }
 main{
   grid-area:main;
+  
  
 }
 footer{
