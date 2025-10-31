@@ -69,17 +69,16 @@ body {
   "header header"
   "nav main"
   "nav footer";
-  grid-template-columns: 1fr 3fr;
-grid-template-rows: 90px 1fr 70px;
+  grid-template-columns: 1fr 7fr;
+grid-template-rows: 80px 1fr 100px;
  background-color: var(--list-bg);
+
 }
 
 header{
   grid-area:header;
 color: var(--h1-text);
-margin: 20px;
-
-
+border: 2px solid #111111;
 
 }
 nav{
@@ -87,7 +86,7 @@ nav{
   display: flex;
   align-items: center;
 color: var(--h1-text);
-
+border: 2px solid #111111;
 }
 
 
@@ -97,10 +96,12 @@ li {
 main{
   grid-area:main;
   color: var(--h2-text);
-  
+  border: 2px solid #111111;
+  min-height: 60vh;
  
 }
 footer{
   grid-area:footer;
 color: var(--h2-text);
+border: 2px solid #111111;
 }
