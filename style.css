@@ -41,9 +41,9 @@
     --text-dark: #2c3e50;
     --font-main: 'Segoe UI', sans-serif;
 
-    --h1-bg: #C1ECAF;
-    --h1-text: #1e2d2b;
-    --h2-text: #74A9CB;
+    --h1-bg: #111111;
+    --h1-text: #ce2029;
+    --h2-text: #111111;
     --h2-border: var(--h1-bg);
     --h3-text: #D67160;
 
@@ -76,6 +76,9 @@ grid-template-rows: 90px 1fr 70px;
 
 header{
   grid-area:header;
+color: var(--h1-text);
+margin: 20px;
+
 
 
 }
@@ -83,6 +86,7 @@ nav{
   grid-area:nav;
   display: flex;
   align-items: center;
+color: var(--h1-text);
 
 }
 
@@ -92,10 +96,11 @@ li {
 }
 main{
   grid-area:main;
+  color: var(--h2-text);
   
  
 }
 footer{
   grid-area:footer;
-
+color: var(--h2-text);
 }
