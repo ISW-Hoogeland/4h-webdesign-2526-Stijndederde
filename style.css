@@ -79,14 +79,18 @@ header{
   grid-area:header;
 color: var(--h1-text);
 border: 2px solid #111111;
-
+border-radius: 1000px;
+padding-left: 20px;
 }
+
 nav{
   grid-area:nav;
   display: flex;
   align-items: center;
 color: var(--h1-text);
 border: 2px solid #111111;
+border-radius: 1000px;
+
 }
 
 
@@ -98,10 +102,12 @@ main{
   color: var(--h2-text);
   border: 2px solid #111111;
   min-height: 60vh;
- 
-}
-footer{
+ border-radius: 20px;
+ }
+
+ footer{
   grid-area:footer;
 color: var(--h2-text);
 border: 2px solid #111111;
+border-radius: 1000px;
 }
